@@ -1,6 +1,6 @@
 # Lab 4: Block Cipher
 
-- [Lab 4: Block Cipher](#lab-2-breaking-without-brute-force)
+- [Lab 4: Block Cipher](#lab-4-block-cipher)
   - [Objectives](#objectives)
   - [PRESENT Block Cipher](#present-block-cipher)
 	- [PRESENT's Overview](#presents-overview)
