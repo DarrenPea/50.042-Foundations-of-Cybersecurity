@@ -2,13 +2,18 @@
 
 - [Lab 5: Modular Arithmetic](#lab-5-modular-arithmetic)
   - [Objectives](#objectives)
-  - 
+  - [Part I: Algebraic Structures](#part-1-algebraic-structures)
+    - [Part I's implementation](#part-is-implementation)
+  - [Part II: Galois Field](#part-ii-galois-field)
+    - [Part II's implementation](#part-iis-implementation)
+  - [Part III: Generate tables](#part-iii-generate-tables)
+    - [Part III's workings](#part-iiis-workings)
 
 ## Objectives
 
 * Implement a class to do computation in GF(2<sup>n</sup>)
 
-## Part 1: Algebraic Structures
+## Part I: Algebraic Structures
 
 Create a class `Polynomial2` where:
 - An instance of the class is a polunomial of any arbitrary degree
@@ -39,7 +44,9 @@ Create a class `Polynomial2` where:
   <img src="https://raw.githubusercontent.com/DarrenPea/50.042-Foundations-of-Cybersecurity/refs/heads/main/lab_5/images/div.png" />
 </p>
 
-### Part I's Implementation
+### Part I's implementation
+
+Solution file: `gf2ntemplate.py`
 
 I implemented a bitwise `XOR` for the `add()` and `sub()` after ensuring they are padded to the same degree.
 
@@ -73,6 +80,8 @@ Methods to implement:
 - Overwrite `__str__()` to print the integer value
 
 ### Part II's implementation
+
+Solution file: `gf2ntemplate.py`
 
 To implement these methods, I used the methods that I have already created in Part I.
 
